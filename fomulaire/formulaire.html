@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img id="fema_logo" src="../images/femacom.png" alt="Femacom Agency"></a>
+        <h1>Contactez-nous</h1>
+    </header>
+    <main>
+        <div id="formulaire">
+            <form id="form">
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="user">
+                </div>
+
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input id="prenom" type="text" id="prenom" prenom="user_name">
+                    <span id="manquePrenom"></span><br>
+                </div>
+
+                <div>
+                    <label for="mail">Adresse mail</label>
+                    <input type="email" id="mail" mail="user_mail">
+                </div>
+
+                <div id="ent">
+                    <label for="entreprise">Entreprise</label>
+                    <input class="ent" type="radio" id="entre" name="bouton" value="entreprise">
+                </div>
+
+                <div>
+                    <label for="particulier">Particulier</label>
+                    <input class="part" type="radio" id="part" name="bouton" value="particulier">
+                </div>
+
+                <div id="dataEntreprise">
+
+                    <div id="siret">
+                        <label for="siret">Ville</label>
+                        <input type="text" id="ville" name="siret">
+                    </div>
+
+                    <div id="nomentreprise">
+                        <label for="nomentre">Nom de l'entreprise</label>
+                        <input id="msg" type="text" id="nomentreprise" name="nomentreprise">
+                    </div>
+                </div>
+
+                <div id="msg">
+                    <label for="msg">Message</label>
+                    <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="fichier">Choisir un fichier</label>
+                    <input type="file" id="fichier" name="envoiefichier" accept="pdf,jpeg,png,mp4">
+                </article>
+
+                <div class="button">
+                    <button type="submit" id="submit">Envoyer votre message</button>
+                </div>
+
+            </form>
+            <div id="alert">
+                Veuillez remplir les champs vide !!
+
+            </div>
+        </div>
+    </main>
+    <script src="formulaire.js"></script>
+</body>
+</html>
