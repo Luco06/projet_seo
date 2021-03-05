@@ -55,11 +55,6 @@
   margin-top: 3px;
 }
 
-* #formulaire textarea {
-  border-radius: 10px;
-  border: solid black 1px;
-}
-
 * #alert {
   border: red solid  2px;
   border-radius: 10px;
