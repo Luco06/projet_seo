@@ -55,16 +55,6 @@
   margin-top: 3px;
 }
 
-* #formulaire input .button {
-  cursor: pointer;
-  background: black;
-  color: white;
-}
-
-* #formulaire input .button:hover {
-  background: white;
-}
-
 * #alert {
   border: red solid  2px;
   border-radius: 10px;
