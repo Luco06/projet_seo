@@ -45,12 +45,14 @@ $screen-xl-min: 1200px;
              img{
                  animation: roted 3s linear infinite;
                  @keyframes roted {
-                     from{
-                         transform: rotateZ(0);
-                     }
-                     to{
-                         transform: rotateZ(360deg);
-                     }
+                    from{
+                        transform: rotateX(0deg) rotateY(0deg);
+                
+                    }
+                    to{
+                        transform: rotateX(360deg) rotateY(360deg);
+                    }
+                }
                  }
              }
             .lettre{
@@ -350,5 +352,4 @@ $screen-xl-min: 1200px;
             }
         }
     }
-}
 }

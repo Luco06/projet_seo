@@ -40,3 +40,4 @@ function slidePrecedent(){
 }
 precedent.addEventListener('click',slidePrecedent)
 setInterval(slideSuivante,3000);
+
